@@ -63,15 +63,18 @@ mvn test -DsuiteXmlFile=testing.xml
 
 Project Structure
 SimplifyMoney-QA-Automation/
-│
-├── src/main/java/        # Page objects and helper classes
-├── src/test/java/        # Test scripts
-├── pom.xml               # Maven dependencies
-├── testing.xml           # TestNG suite
-├── target/               # Test reports and screenshots
-│   └── screenshots/      # Captured screenshots for failed tests
-└── README.md             # Project documentation
-
+``` bash
+├── src/
+│ ├── main/
+│ │ └── java/ # Page objects and helper classes
+│ └── test/
+│ └── java/ # Test scripts
+├── pom.xml # Maven dependencies
+├── testing.xml # TestNG suite
+├── target/ # Test reports and screenshots
+│ └── screenshots/ # Captured screenshots for failed tests
+└── README.md # Project documentation
+```
 Test Execution Reports
 - All test cases are executed via TestNG
 
